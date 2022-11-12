@@ -1,0 +1,458 @@
+fileFormatVersion: 2
+guid: 412556b54fe86916ebaef0bbc868fccb
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3td_Africa_Grass01.001
+    second: {fileID: 2100000, guid: 085322e64ac775d54a4b6501b889f667, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DryWeeds-CC0.001
+    second: {fileID: 2100000, guid: 54d2f06343609f50296726973355498d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaves0119_14_S.001
+    second: {fileID: 2100000, guid: 5cf2796b9f889719397361464eedc6b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Leaves0119_1_alphamasked_S.001
+    second: {fileID: 2100000, guid: ca7eb9ae6da490e238d73ba40f78b509, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TexturesCom_Leaves0119_2_alphamasked_S.001
+    second: {fileID: 2100000, guid: 06314a1116511129da2ee473562e1873, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arbre-feuille-variante.001
+    second: {fileID: 2100000, guid: 2e8abd37a0591323db329095045ac7af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arbre-feuille-variante2.001
+    second: {fileID: 2100000, guid: e454e4908fc2d5f52b95ccc171a5089d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arbre-feuille.001
+    second: {fileID: 2100000, guid: adb8cdc525092724c9257db1f75973a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arbre-tronc.001
+    second: {fileID: 2100000, guid: 891e1c2b617a6d539852582b920304e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat1-fenetres.001
+    second: {fileID: 2100000, guid: f84c82aa86847c87e9496bfacd6d5d33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat1-structure.001
+    second: {fileID: 2100000, guid: 870ef0c4129e784a58661540d8929e24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat1-toiture.001
+    second: {fileID: 2100000, guid: a6b2d49bdd850942b8b8131649651acd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat10-fenetres.001
+    second: {fileID: 2100000, guid: e81a2876de441ca8286296533afd58bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat10-moulure.001
+    second: {fileID: 2100000, guid: 58d6e488686e19776be3c6293c854cd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat10-structure.001
+    second: {fileID: 2100000, guid: 9c78fb47011dcd744842de07c65ed18f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat10-toiture..001
+    second: {fileID: 2100000, guid: 33a110d984d63160eaa49ee4ea5df282, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat11-fenetres.001
+    second: {fileID: 2100000, guid: 5f20a8a56d059b0d4a7814925a4b95b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat11-moulure.001
+    second: {fileID: 2100000, guid: 80e2862bc820f7ad2ac96fee0c49a827, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat11-structure.001
+    second: {fileID: 2100000, guid: 51856857778dad0279f95fb420fab1b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat11-toiture.001
+    second: {fileID: 2100000, guid: 608592bdbb02e25e7967061621d34561, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat12-fenetres.001
+    second: {fileID: 2100000, guid: c4dfb302529a04b2ab9ff51c3dd86f3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat12-moulure.001
+    second: {fileID: 2100000, guid: 96e4c57db26e155a69dcb2c4a41a3ab2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat12-structure.001
+    second: {fileID: 2100000, guid: b5c69a71d55ef0776b91cdde72aab342, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat12-toiture.001
+    second: {fileID: 2100000, guid: 9632a31d46d74e7848224b79bc3cda05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat2-fenetres.001
+    second: {fileID: 2100000, guid: 1a8fb7906a033a71a9d215d78ea2fb99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat2-moulure.001
+    second: {fileID: 2100000, guid: 728e160f06b72f03389e2dc2fe24ea35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat2-structure.001
+    second: {fileID: 2100000, guid: a17832d929941432b8f9634f92416f1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat2-toiture.001
+    second: {fileID: 2100000, guid: ce267194e5fa3b49283ef437bb94dafe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat3-fenetres.001
+    second: {fileID: 2100000, guid: 58dfce1f1fcfb60de8b55a5e6ef6f502, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat3-rembarde.001
+    second: {fileID: 2100000, guid: 5c1483c7e478d3cc7bdd4fe3e5db2bdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat3-structure.001
+    second: {fileID: 2100000, guid: 9dde7be79691b1e91b02d356ab67276e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat3-toiture.001
+    second: {fileID: 2100000, guid: 16e04084594a4276fa8d6aef029301b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat4-fenetres.001
+    second: {fileID: 2100000, guid: f696a02f22d8554a0a8e2c4a537ba389, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat4-structure.001
+    second: {fileID: 2100000, guid: b6ff84e3f7a41f763905da134760e107, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat4-toiture.001
+    second: {fileID: 2100000, guid: 6dc0e2c44ff218ecdb4bf1dfe926fc59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat5-fenetres.001
+    second: {fileID: 2100000, guid: 6aed332e90c7813c581301ed16dc51d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat5-rembarde.001
+    second: {fileID: 2100000, guid: f46399f32c5a679c797567dda77f08a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat5-structure.001
+    second: {fileID: 2100000, guid: edf7706f91f180ab586bde4c65e01a4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat5-toiture.001
+    second: {fileID: 2100000, guid: 14b0ebfbb6260d9e4972cfda726a9273, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat6-fenetres.001
+    second: {fileID: 2100000, guid: 6dfe50dd2511fd8089aedd8da74c5a55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat6-moulure.001
+    second: {fileID: 2100000, guid: e41dbecfa952b6491864f2029a9ac94c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat6-structure.001
+    second: {fileID: 2100000, guid: eee8ee5ebc791f0259d054033a57c459, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat6-toiture.001
+    second: {fileID: 2100000, guid: 41138dfd6e1ecef38b82222460884656, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat7-fenetres.001
+    second: {fileID: 2100000, guid: cc9f7ba654c466c5c844042d25bdf5ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat7-moulure.001
+    second: {fileID: 2100000, guid: 94957743887a1ccbfb3a198f37309299, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat7-structure.001
+    second: {fileID: 2100000, guid: f1da49a91fecb734b8638310f3194ee0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat7-toiture.001
+    second: {fileID: 2100000, guid: a5b418b24c22645798f0fd0d09dd04d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat8-fenetres.001
+    second: {fileID: 2100000, guid: 77dd03d116329c75cb6dabc7931cc13b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat8-moulure.001
+    second: {fileID: 2100000, guid: 790ceb8388ee6d263967b35c134bdcc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat8-structure.001
+    second: {fileID: 2100000, guid: 73addafc918fef6bb8b9a922696ed9e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat8-toiture.001
+    second: {fileID: 2100000, guid: 5279e8c6bb0b9f743ae394a82d274448, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat9-fenetres.001
+    second: {fileID: 2100000, guid: 63c3b49af8f81b521965b38945a2ffee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat9-moulure.001
+    second: {fileID: 2100000, guid: 0d2952cece66ef92c8ce40eb01fb7bb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat9-structure.001
+    second: {fileID: 2100000, guid: df297236d9c8342bf8dbbba68b864c2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bat9-toiture.001
+    second: {fileID: 2100000, guid: c75d3d810416af7899b74ca993dbc958, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: caisse.001
+    second: {fileID: 2100000, guid: 4f7fdfa8f4469a8e8b50abaf7100794d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cerclage.001
+    second: {fileID: 2100000, guid: 162949ed994c786bea070cf5a9de0dc9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fence-classic.001
+    second: {fileID: 2100000, guid: eccb3aed24decccbfadda99ab629d9cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fence-emit.001
+    second: {fileID: 2100000, guid: b57dacbe91ccb410e869b15a107a0e0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fence-or-classic.001
+    second: {fileID: 2100000, guid: 5d3d4a8917dfddee7a7b967659d66155, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fgrass1_v2_256.001
+    second: {fileID: 2100000, guid: 51bb3d2998f268efab80c0056a9067da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ground1.001
+    second: {fileID: 2100000, guid: 3e8e9cb3f4295c6b1974d0a3b74a68a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ground2.001
+    second: {fileID: 2100000, guid: fdc615fed3e1d8b1f983436968a929a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ground3.001
+    second: {fileID: 2100000, guid: b4daf8100df6d073eb16a3ca53dfe361, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lampadaire-verre.001
+    second: {fileID: 2100000, guid: c56882fd1c81664b49f8751ba7310a40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lampadaire.001
+    second: {fileID: 2100000, guid: 355df7e235741e062a8ad837ac25a34f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: planche.001
+    second: {fileID: 2100000, guid: 3f838d905292dba5da98beb51e5f9cf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: terre.001
+    second: {fileID: 2100000, guid: ec9d289f5a815cb52ac863d5fef8085f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tonneau.001
+    second: {fileID: 2100000, guid: 0963aa50501c540aa88722fce7a1a54a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trottoir.001
+    second: {fileID: 2100000, guid: fa1e0fd96851f7df880ffe40a915152e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zeppelin.001
+    second: {fileID: 2100000, guid: 813879ebe4c0dff5faf02af25bc460b9, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
