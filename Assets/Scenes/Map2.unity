@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.09005888, g: 0.07501922, b: 0.029901102, a: 1}
+  m_IndirectSpecularColor: {r: 0.0804657, g: 0.06802951, b: 0.02853058, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2284,6 +2284,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2356,6 +2357,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71ee053e7c8e43a14b7b70180268537e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1861194745}
+  offset: {x: 0, y: 9.36, z: -8.86}
+  smoothTime: 0
 --- !u!1 &973485885 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4914083731814912455, guid: 412556b54fe86916ebaef0bbc868fccb, type: 3}
@@ -4914,8 +4930,8 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 70c7f4788abe8d6499366adf549e78b3, type: 3}
   m_PrefabInstance: {fileID: 1707427436}
   m_PrefabAsset: {fileID: 0}
---- !u!136 &1861194746
-CapsuleCollider:
+--- !u!65 &1861194746
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4924,10 +4940,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.047112137
-  m_Height: 0.23352183
-  m_Direction: 1
-  m_Center: {x: 0.004630981, y: 0.11783282, z: 0.008327336}
+  serializedVersion: 2
+  m_Size: {x: 0.11308392, y: 0.25262246, z: 0.08323526}
+  m_Center: {x: 0.015256336, y: 0.12567529, z: -0.00907065}
 --- !u!54 &1861194747
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4956,8 +4971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a2546200c83a934db755c3a2665f8ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
-  h: 0
+  speed: 10
   Anim: {fileID: 1861194750}
 --- !u!95 &1861194750
 Animator:
