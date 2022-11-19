@@ -16,6 +16,21 @@ ModelImporter:
       74: 2667949614841947897
     second: Walk
   - first:
+      74: 7856014619006946771
+    second: AmbilPedang
+  - first:
+      74: 5771038075539466767
+    second: simpanPedang
+  - first:
+      74: -6675871684897122651
+    second: Serang1
+  - first:
+      74: -6333192991208573754
+    second: Serang2
+  - first:
+      74: 4098815176410735637
+    second: Armature|AmbilPedang
+  - first:
       74: 6059336001588132254
     second: Armature|Die
   - first:
@@ -25,6 +40,15 @@ ModelImporter:
       74: -7551964380084998518
     second: Armature|Run
   - first:
+      74: -2784269461560394076
+    second: Armature|Serang1
+  - first:
+      74: -6675091385574686158
+    second: Armature|Serang2
+  - first:
+      74: 215111029916597039
+    second: Armature|simpanPedang
+  - first:
       74: 8349542763059015795
     second: Armature|Walk
   externalObjects:
@@ -32,37 +56,37 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: UV_1002
-    second: {fileID: 2100000, guid: 3163d98892b8efc44819f57a24571d95, type: 2}
+    second: {fileID: 2100000, guid: 1897702179586994bb911ccb51bf4e96, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: UV_1003
-    second: {fileID: 2100000, guid: 497e3ed71b37b9a46b7e1879f828a1b6, type: 2}
+    second: {fileID: 2100000, guid: 51eb8b2403aed1e419bc1736382a9529, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: UV_1004
-    second: {fileID: 2100000, guid: b94eaa4da65ee2a478299287f90b0b0b, type: 2}
+    second: {fileID: 2100000, guid: 9baffa6adfcce404f88e9c2c7511c3b7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: beard_eyebrows_eyelashes
-    second: {fileID: 2100000, guid: 3e7b201ada0f3054bab578abc50f79ad, type: 2}
+    second: {fileID: 2100000, guid: 4c20d6c0f7b08d046a19690de999a793, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: eye_glass
-    second: {fileID: 2100000, guid: ddf3d942b234e2948a1e168c32a494ee, type: 2}
+    second: {fileID: 2100000, guid: 1823655a5e1bcf1439e20cfb0ca9ef01, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: uv_1001
-    second: {fileID: 2100000, guid: df3c4d023ccb11646ae9709a7f22846b, type: 2}
+    second: {fileID: 2100000, guid: 28d278356c28c274184e9a798893c238, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: weapons
-    second: {fileID: 2100000, guid: fd3efabfd8371f841bb441471c486943, type: 2}
+    second: {fileID: 2100000, guid: 33be26031f5968d4cbce713fa3f6ce94, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -183,6 +207,122 @@ ModelImporter:
       internalID: 0
       firstFrame: 0
       lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AmbilPedang
+      takeName: AmbilPedang
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: simpanPedang
+      takeName: simpanPedang
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Serang1
+      takeName: Serang1
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Serang2
+      takeName: Serang2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 66
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

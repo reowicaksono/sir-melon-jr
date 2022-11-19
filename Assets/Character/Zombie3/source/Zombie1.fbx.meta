@@ -75,7 +75,7 @@ ModelImporter:
       takeName: Walk
       internalID: 0
       firstFrame: 0
-      lastFrame: 4
+      lastFrame: 240
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -104,7 +104,7 @@ ModelImporter:
       takeName: Idle
       internalID: 0
       firstFrame: 0
-      lastFrame: 8
+      lastFrame: 240
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -133,7 +133,7 @@ ModelImporter:
       takeName: Attack
       internalID: 0
       firstFrame: 0
-      lastFrame: 3
+      lastFrame: 240
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -162,7 +162,7 @@ ModelImporter:
       takeName: Die
       internalID: 0
       firstFrame: 0
-      lastFrame: 5
+      lastFrame: 240
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -191,7 +191,7 @@ ModelImporter:
       takeName: Damaged
       internalID: 0
       firstFrame: 0
-      lastFrame: 2
+      lastFrame: 240
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

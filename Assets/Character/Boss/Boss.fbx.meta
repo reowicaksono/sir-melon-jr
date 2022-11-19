@@ -4,44 +4,44 @@ ModelImporter:
   serializedVersion: 20300
   internalIDToNameTable:
   - first:
-      74: -3419257869308726280
-    second: walk
+      74: 8518336624491999495
+    second: Armature|Armature|Armature|biasa
   - first:
-      74: -3100369314251171874
-    second: Idle
+      74: 9003578906191587930
+    second: Armature|Armature|Armature|Idle
   - first:
-      74: 1067997743506183132
-    second: Pukul1
+      74: 1632591447259721769
+    second: Armature|Armature|Armature|Pukul1
   - first:
-      74: 2486996819782310075
-    second: Pukul2
+      74: 2605380947536254487
+    second: Armature|Armature|Armature|Pukul2
   - first:
-      74: 5874199474891123731
-    second: Roar
+      74: -7272697422545266111
+    second: Armature|Armature|Armature|Roar
   - first:
-      74: -8489560242277897080
-    second: Armature|biasa
+      74: 1875891853626375771
+    second: Armature|Armature|Armature|walk
   - first:
-      74: -8945691123924629249
-    second: Armature|Idle
+      74: -4058980277392272126
+    second: Armature|Armature|Idle
   - first:
-      74: 1130539113163256015
-    second: Armature|Pukul1
+      74: 2015468400656931059
+    second: Armature|Armature|Pukul1
   - first:
-      74: 4262252309376877176
-    second: Armature|Pukul2
+      74: -4115397177520729503
+    second: Armature|Armature|Pukul2
   - first:
-      74: 9125652992383952890
-    second: Armature|Roar
+      74: 7088328399215523525
+    second: Armature|Armature|Roar
   - first:
-      74: -4799524434163024911
-    second: Armature|walk
+      74: 3201299538000972291
+    second: Armature|Armature|walk
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mutant_M
-    second: {instanceID: 0}
+    second: {fileID: 2100000, guid: de034d477dcab3445bcae404f2f8706a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -70,11 +70,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: walk
-      takeName: walk
+      name: Armature|Armature|Idle
+      takeName: Armature|Armature|Idle
       internalID: 0
       firstFrame: 0
-      lastFrame: 1
+      lastFrame: 159
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -99,11 +99,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Idle
-      takeName: Idle
+      name: Armature|Armature|Pukul1
+      takeName: Armature|Armature|Pukul1
       internalID: 0
       firstFrame: 0
-      lastFrame: 5
+      lastFrame: 80
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -128,11 +128,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Pukul1
-      takeName: Pukul1
+      name: Armature|Armature|Pukul2
+      takeName: Armature|Armature|Pukul2
       internalID: 0
       firstFrame: 0
-      lastFrame: 3
+      lastFrame: 53
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -157,11 +157,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Pukul2
-      takeName: Pukul2
+      name: Armature|Armature|Roar
+      takeName: Armature|Armature|Roar
       internalID: 0
       firstFrame: 0
-      lastFrame: 2
+      lastFrame: 162
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -186,11 +186,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Roar
-      takeName: Roar
+      name: Armature|Armature|walk
+      takeName: Armature|Armature|walk
       internalID: 0
       firstFrame: 0
-      lastFrame: 5
+      lastFrame: 43
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
