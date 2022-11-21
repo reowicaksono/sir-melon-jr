@@ -56,37 +56,37 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: UV_1002
-    second: {fileID: 2100000, guid: 1897702179586994bb911ccb51bf4e96, type: 2}
+    second: {fileID: 2100000, guid: c371e28a05d1cd1e3a55bd1657d93fdf, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: UV_1003
-    second: {fileID: 2100000, guid: 51eb8b2403aed1e419bc1736382a9529, type: 2}
+    second: {fileID: 2100000, guid: 5affc753b9b4753fda0363dd87ee0989, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: UV_1004
-    second: {fileID: 2100000, guid: 9baffa6adfcce404f88e9c2c7511c3b7, type: 2}
+    second: {fileID: 2100000, guid: d7332166391db214192d6c9c60170ebd, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: beard_eyebrows_eyelashes
-    second: {fileID: 2100000, guid: 4c20d6c0f7b08d046a19690de999a793, type: 2}
+    second: {fileID: 2100000, guid: fd32d70090cee0b268eb34093e8a92a5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: eye_glass
-    second: {fileID: 2100000, guid: 1823655a5e1bcf1439e20cfb0ca9ef01, type: 2}
+    second: {fileID: 2100000, guid: 6d1667622375cc11f9bc0327cb9cefac, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: uv_1001
-    second: {fileID: 2100000, guid: 28d278356c28c274184e9a798893c238, type: 2}
+    second: {fileID: 2100000, guid: da76ec4875bd307b08715ca54207c688, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: weapons
-    second: {fileID: 2100000, guid: 33be26031f5968d4cbce713fa3f6ce94, type: 2}
+    second: {fileID: 2100000, guid: 6a28669a33bed5d87b4cbbcf777deaac, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -126,7 +126,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -155,7 +155,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -213,7 +213,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
