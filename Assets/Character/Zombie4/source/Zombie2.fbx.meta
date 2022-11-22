@@ -33,6 +33,9 @@ ModelImporter:
   - first:
       74: 8349542763059015795
     second: Armature|Walk
+  - first:
+      74: 4723146814002874508
+    second: Armature|Attack
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -62,11 +65,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Attack1
-      takeName: Attack1
+      name: Armature|Attack
+      takeName: Armature|Attack
       internalID: 0
       firstFrame: 0
-      lastFrame: 139
+      lastFrame: 80
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -124,14 +127,14 @@ ModelImporter:
       takeName: Idle
       internalID: 0
       firstFrame: 0
-      lastFrame: 139
+      lastFrame: 342
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -160,7 +163,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
