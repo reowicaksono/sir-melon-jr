@@ -284,7 +284,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79570240}
-  m_LocalRotation: {x: 0.04002251, y: -0.023294086, z: 0.0009332892, w: 0.9989268}
+  m_LocalRotation: {x: 0.040029854, y: -0.013279685, z: 0.00053205725, w: 0.9991101}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -818,7 +818,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286637200}
-  m_LocalRotation: {x: 0.02189989, y: -0.0000000018621986, z: 4.0791728e-11, w: 0.9997602}
+  m_LocalRotation: {x: 0.021899888, y: 1.10915815e-16, z: 6.828356e-19, w: 0.9997602}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1209,7 +1209,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2954501169006406373, guid: 412556b54fe86916ebaef0bbc868fccb, type: 3}
 --- !u!1001 &461914849
@@ -3375,7 +3375,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1195904669}
-  m_LocalRotation: {x: 0.05820168, y: 0.000000018242165, z: -0.0000000010635275, w: 0.99830484}
+  m_LocalRotation: {x: 0.05820168, y: 0.000000018242163, z: -0.0000000010635274, w: 0.99830484}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5424,7 +5424,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4839048499271343290, guid: 412556b54fe86916ebaef0bbc868fccb, type: 3}
 --- !u!1 &1786205109 stripped
@@ -6117,7 +6117,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &1861194748
 MonoBehaviour:
@@ -6131,7 +6131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd11678b98a7cda09af7dfb833ffa2d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 20
+  movementSpeed: 5
   Anim: {fileID: 1861194750}
   isWalking: 0
   rb: {fileID: 1861194747}

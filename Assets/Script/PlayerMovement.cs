@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 move = controller.Land.Newaction.ReadValue<Vector2>();
+        isWalking = true;
         if (move.magnitude >= 0.1f)
         {
             Vector3 moveDir = new Vector3(move.x, 0, move.y).normalized;
@@ -37,57 +38,64 @@ public class PlayerMovement : MonoBehaviour
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, tragetAngle, ref turnSmoothVelocity, turnSmoothTime);
 
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
-            Vector3 moveVelocity = Quaternion.Euler(0f, tragetAngle, 0f) * Vector3.forward;
-            rb.AddForce(moveVelocity.normalized * movementSpeed * Time.fixedDeltaTime, ForceMode.VelocityChange);
+            if(Input.GetKey(KeyCode.LeftShift)) isWalking = false;
+            turnSpeed = isWalking ? 0.1f : 1f; 
+            Vector3 moveVelocity = Quaternion.Euler(0f, tragetAngle, 0f) * Vector3.forward * turnSpeed;
+            Anim.SetFloat("speed", turnSpeed);
+            // Debug.Log(Anim.GetFloat("speed"));
+            
+            Vector3 data = rb.velocity =moveVelocity.normalized * movementSpeed * Time.deltaTime;
+            rb.AddForce(data, ForceMode.VelocityChange);
+            
+        }
+        else{
+            Anim.SetFloat("speed", move.magnitude);
         }
 
 
-            isWalking = true;
-            if (Input.GetKey(KeyCode.LeftShift))
-            {
-                isWalking = false;
-            }
-            MovingRelativeToCamera();
+        // isWalking = true;
+        // if (Input.GetKey(KeyCode.LeftShift)) isWalking = true;
 
-            Quaternion currentRot = transform.rotation;
+        // MovingRelativeToCamera();
 
-            Quaternion cameraRotation = Camera.main.transform.rotation;
-            Quaternion targetCameraRotation = new Quaternion(0, cameraRotation.y, cameraRotation.z, cameraRotation.z);
-        }
+        // Quaternion currentRot = transform.rotation;
 
-        void RotasiPosisi(Vector3 moveDir)
-        {
-            if (moveDir != Vector3.zero)
-            {
-                Quaternion rotationTarget = Quaternion.LookRotation(moveDir, Vector3.up);
-                transform.rotation = Quaternion.Slerp(transform.rotation, rotationTarget, movementSpeed * Time.deltaTime);
-            }
-        }
-
-
-        void MovingRelativeToCamera()
-        {
-            float playerVerInput = Input.GetAxis("Vertical");
-            float playerHorInput = Input.GetAxis("Horizontal");
-
-            Vector3 forward = Camera.main.transform.forward;
-            Vector3 right = Camera.main.transform.right;
-
-            Debug.Log(forward);
-            Vector3 forwardRelativeVerticalInput = new Vector3(forward.x, 0, forward.z) * playerVerInput;
-            Vector3 rightRelativeVerticalInput = right * playerHorInput;
-
-            Vector3 cameraRelativeMovement = forwardRelativeVerticalInput + rightRelativeVerticalInput;
-
-            turnSpeed = isWalking ? 0.5f : 1;
-            Anim.SetFloat("speed", cameraRelativeMovement.magnitude * movementSpeed + .5f);
-            transform.Translate(cameraRelativeMovement * movementSpeed * Time.deltaTime * turnSpeed, Space.World);
-
-
-            Vector3 movement = new Vector3(playerHorInput, 0, playerVerInput) * Time.deltaTime * movementSpeed;
-            Vector3 normalizeMovement = cameraRelativeMovement;
-
-            RotasiPosisi(normalizeMovement);
-        
+        // Quaternion cameraRotation = Camera.main.transform.rotation;
+        // Quaternion targetCameraRotation = new Quaternion(0, cameraRotation.y, cameraRotation.z, cameraRotation.z);
     }
+
+    // void RotasiPosisi(Vector3 moveDir)
+    // {
+    //     if (moveDir != Vector3.zero)
+    //     {
+    //         Quaternion rotationTarget = Quaternion.LookRotation(moveDir, Vector3.up);
+    //         transform.rotation = Quaternion.Slerp(transform.rotation, rotationTarget, movementSpeed * Time.deltaTime);
+    //     }
+    // }
+
+
+    // void MovingRelativeToCamera()
+    // {
+    //     float playerVerInput = Input.GetAxis("Vertical");
+    //     float playerHorInput = Input.GetAxis("Horizontal");
+
+    //     Vector3 forward = Camera.main.transform.forward;
+    //     Vector3 right = Camera.main.transform.right;
+
+    //     Vector3 forwardRelativeVerticalInput = new Vector3(forward.x, 0, forward.z) * playerVerInput;
+    //     Vector3 rightRelativeVerticalInput = right * playerHorInput;
+
+    //     Vector3 cameraRelativeMovement = forwardRelativeVerticalInput + rightRelativeVerticalInput;
+
+    //     turnSpeed = isWalking ? 0.5f : 1;
+    //     Anim.SetFloat("speed", turnSpeed);
+    //     transform.Translate(cameraRelativeMovement * movementSpeed * Time.deltaTime * turnSpeed, Space.World);
+
+
+    //     Vector3 movement = new Vector3(playerHorInput, 0, playerVerInput) * Time.deltaTime * movementSpeed;
+    //     Vector3 normalizeMovement = cameraRelativeMovement;
+
+    //     RotasiPosisi(normalizeMovement);
+
+    // }
 }

@@ -31,7 +31,7 @@ public class PlayerScript : MonoBehaviour
         turnSpeed = isWalking ? 0.5f : 1;
         Vector3 movement = new Vector3(h, 0, v) * Time.deltaTime * speed * turnSpeed;
 
-        Anim.SetFloat("isWalk", movement.magnitude * speed + .5f);
+        Anim.SetFloat("speed", movement.magnitude * speed + .5f);
         transform.Translate(movement, Space.World);
         AnimasiLari(isWalking);
 
