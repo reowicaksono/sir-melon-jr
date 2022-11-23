@@ -4,64 +4,60 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
-    public float speed = 10;
-    private float rotateSpeed = 40f;
+    PlayerController controller;
+    public int movementSpeed;
     public Animator Anim;
+    private float turnSmoothTime = 0.1f;
+    private float turnSmoothVelocity;
     float turnSpeed = 1;
-
-
-
-    bool isWalking = false;
+    [SerializeField] bool isWalking = false;
+    [SerializeField] Rigidbody rb;
+    public Transform cam;
     void Start()
     {
-        Anim = gameObject.GetComponent<Animator>();
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
-    // Update is called once per frame
-    void Update()
+    void Awake()
     {
+        controller = new PlayerController();
+        controller.Enable();
+
+    }
+
+    void FixedUpdate()
+    {
+        Vector2 move = controller.Land.Newaction.ReadValue<Vector2>();
         isWalking = true;
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
-
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            isWalking = false;
-        }
-        turnSpeed = isWalking ? 0.5f : 1;
-        Vector3 movement = new Vector3(h, 0, v) * Time.deltaTime * speed * turnSpeed;
-
-        Anim.SetFloat("speed", movement.magnitude * speed + .5f);
-        transform.Translate(movement, Space.World);
-        AnimasiLari(isWalking);
-
-        Vector3 normalizeMovement = movement.normalized;
-
-        RotasiPosisi(normalizeMovement);
-        // RotasiPosisi(NormalizedMove);
-
-        // if (Input.GetKey(KeyCode.LeftShift))
-        // {
-
-        //     isWwalking = false;
-        // }
+        playerMove();
 
 
     }
 
-    void RotasiPosisi(Vector3 moveDir)
+    void playerMove()
     {
-        if (moveDir != Vector3.zero)
+        float h = Input.GetAxisRaw("Horizontal");
+        float v = Input.GetAxisRaw("Vertical");
+
+        Vector3 direction = new Vector3(h, 0f, v).normalized;
+
+        if (direction.magnitude >= 0.1f)
         {
-            Quaternion rotationTarget = Quaternion.LookRotation(moveDir, Vector3.up);
-            transform.rotation = Quaternion.Slerp(transform.rotation, rotationTarget, speed * Time.deltaTime);
+            float tragetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
+            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, tragetAngle, ref turnSmoothVelocity, turnSmoothTime);
+             transform.rotation = Quaternion.Euler(0f, angle, 0f);
+            if(Input.GetKey(KeyCode.LeftShift)) isWalking = false;
+            turnSpeed = isWalking ? 0.1f : 1f; 
+
+            Vector3 moveDirection = Quaternion.Euler(0f, tragetAngle, 0f) * Vector3.forward * turnSpeed;
+            Anim.SetFloat("speed", turnSpeed);
+
+            Vector3 data = rb.velocity = moveDirection.normalized * movementSpeed * Time.deltaTime;
+            rb.AddForce(data, ForceMode.VelocityChange);
+        }
+        else{
+            Anim.SetFloat("speed", direction.magnitude);
         }
     }
-
-    void AnimasiLari(bool isWalking)
-    {
-        Anim.SetBool("isWalking", isWalking);
-    }
-
 
 }
