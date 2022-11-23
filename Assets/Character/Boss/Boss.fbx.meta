@@ -36,6 +36,21 @@ ModelImporter:
   - first:
       74: 3201299538000972291
     second: Armature|Armature|walk
+  - first:
+      74: -3100369314251171874
+    second: Idle
+  - first:
+      74: 1067997743506183132
+    second: Pukul1
+  - first:
+      74: 2486996819782310075
+    second: Pukul2
+  - first:
+      74: 5874199474891123731
+    second: Roar
+  - first:
+      74: 2667949614841947897
+    second: Walk
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -70,8 +85,8 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Armature|Armature|Idle
-      takeName: Armature|Armature|Idle
+      name: Idle
+      takeName: Idle
       internalID: 0
       firstFrame: 0
       lastFrame: 159
@@ -99,37 +114,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Armature|Pukul1
-      takeName: Armature|Armature|Pukul1
-      internalID: 0
-      firstFrame: 0
-      lastFrame: 80
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Armature|Armature|Pukul2
-      takeName: Armature|Armature|Pukul2
+      name: Pukul1
+      takeName: Pukul1
       internalID: 0
       firstFrame: 0
       lastFrame: 53
@@ -157,8 +143,37 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Armature|Roar
-      takeName: Armature|Armature|Roar
+      name: Pukul2
+      takeName: Pukul2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Roar
+      takeName: Roar
       internalID: 0
       firstFrame: 0
       lastFrame: 162
@@ -186,8 +201,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|Armature|walk
-      takeName: Armature|Armature|walk
+      name: Walk
+      takeName: Walk
       internalID: 0
       firstFrame: 0
       lastFrame: 43
