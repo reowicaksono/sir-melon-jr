@@ -8,6 +8,28 @@ public class DoorOpen : MonoBehaviour
     GameObject door;
 
     bool isOpen = false;
+    public GameObject noteUi;
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (isOpen == true)
+            {
+                door.transform.position = new Vector3(8.089f, transform.position.y, transform.position.z);
+
+            }
+        }
+
+    }
+    private void Start()
+    {
+
+
+        isOpen = false;
+        noteUi.SetActive(false);
+        door.transform.position = new Vector3(6.009f, transform.position.y, transform.position.z);
+    }
 
 
     // Start is called before the first frame update
@@ -15,22 +37,17 @@ public class DoorOpen : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (!isOpen)
-            {
-                door.transform.position = new Vector3(5.089f, transform.position.y, transform.position.z);
-            }
-            else
-            {
-                door.transform.position = new Vector3(4.009f, transform.position.y, transform.position.z);
-            }
-
+            isOpen = true;
+            noteUi.SetActive(true);
         }
     }
-
-    private void Update()
+    void OnTriggerExit(Collider other)
     {
-        // if (Input.GetKeyDown(KeyCode.E)) isOpen = true;
-        isOpen = Input.GetKey(KeyCode.E) ? isOpen = true : isOpen = false;
-        Debug.Log(isOpen);
+        if (other.CompareTag("Player"))
+        {
+            isOpen = false;
+            noteUi.SetActive(false);
+            
+        }
     }
 }

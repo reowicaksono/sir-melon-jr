@@ -13,6 +13,8 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] bool isWalking = false;
     [SerializeField] Rigidbody rb;
     public Transform cam;
+
+    
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -51,12 +53,14 @@ public class PlayerScript : MonoBehaviour
 
             Vector3 moveDirection = Quaternion.Euler(0f, tragetAngle, 0f) * Vector3.forward * turnSpeed;
             Anim.SetFloat("speed", turnSpeed);
+            
 
             Vector3 data = rb.velocity = moveDirection.normalized * movementSpeed * Time.deltaTime;
             rb.AddForce(data, ForceMode.VelocityChange);
         }
         else{
             Anim.SetFloat("speed", direction.magnitude);
+      
         }
     }
 
