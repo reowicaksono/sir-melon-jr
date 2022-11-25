@@ -6,11 +6,31 @@ using UnityEngine.UI;
 public class ReadNotes : MonoBehaviour
 {
 
-    [SerializeField]
-    GameObject noteUI;
-    GameObject textUi;
+
+    public Image _noteImage;
+    public GameObject noteUi;
 
     bool isRead = false;
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Debug.Log(isRead);
+            if (isRead == true)
+            {
+                noteUi.SetActive(false);
+                isRead = false;
+                _noteImage.enabled = true;
+            }
+        }
+
+    }
+    private void Start()
+    {
+        noteUi.SetActive(false);
+        _noteImage.enabled = false;
+    }
 
 
     // Start is called before the first frame update
@@ -18,31 +38,17 @@ public class ReadNotes : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            if (!isRead)
-            {
-                noteUI.SetActive(false);
-                textUi.SetActive(true);
-            }
-            else
-            {
-                noteUI.SetActive(true);
-                textUi.SetActive(false);
-            }
-
+            noteUi.SetActive(true);
+            isRead = true;
         }
     }
     void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            noteUI.SetActive(false);
-            textUi.SetActive(false);
+            noteUi.SetActive(false);
+            isRead = false;
+            _noteImage.enabled = false;
         }
-    }
-    private void Update()
-    {
-        // if (Input.GetKeyDown(KeyCode.E)) isRead = true;
-        isRead = Input.GetKey(KeyCode.E) ? isRead = true : isRead = false;
-        Debug.Log(isRead);
     }
 }

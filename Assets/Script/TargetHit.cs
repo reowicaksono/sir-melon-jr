@@ -11,7 +11,7 @@ public class TargetHit : MonoBehaviour
     {
         targetHealth -= amount;
 
-        Debug.Log("Target Health: " + targetHealth);
+        // Debug.Log("Target Health: " + targetHealth);
         if (targetHealth <= 0f)
         {
             Die();
