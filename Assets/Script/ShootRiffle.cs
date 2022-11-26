@@ -15,16 +15,39 @@ public class ShootRiffle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
-        Vector3 direction = new Vector3(h, 0f, v).normalized;
-        // Debug.Log(direction.magnitude);
 
-        if (Input.GetButtonDown("Fire1") )
+        Vector3 direction = new Vector3(h, 0f, v).normalized;
+
+        float data = Anim.GetFloat("speed");
+        if (Input.GetButton("Fire1"))
         {
             Shoot();
             Anim.SetBool("isPunch", true);
-            // Debug.Log(Anim.GetFloat("speed"));
+
+            // float a = Time.time;
+            // if(a > nextToTime){
+            //     Anim.SetBool("isPunch2", true);
+            //     nextToTime += Time.time/5;  
+            // }else{
+            //     Anim.SetBool("isPunch2", false);
+            // }
+
+            // Debug.Log(Anim.GetBool("isPunch2") + " =  " + a + " data time " + nextToTime);
+
+        
+        }
+        else if (Input.GetButton("Fire1") && data == 0.1)
+        {
+            Shoot();
+            Anim.SetBool("isPunch", true);
+        }
+        else if (Input.GetButton("Fire1") && Input.GetButton("Fire2"))
+        {
+            Shoot();
+            Anim.SetBool("isPunch", true);
         }
         else
         {
